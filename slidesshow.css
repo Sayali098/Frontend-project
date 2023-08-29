@@ -1,0 +1,77 @@
+/* Define color variables */
+:root {
+    --primary-color: #4070F4;
+    --secondary-color: #6E93f7;
+    --hover-color: #265DF2;
+    --text-color: #333;
+    --text-light-color: #707070;
+    --background-color: #EFEFEF;
+    --card-bg-color: #FFF;
+  }
+  
+  /* Google Fonts - Poppins */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+  }
+  
+  .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  /* ... Other styles ... */
+  
+  .overlay::before,
+  .overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-color);
+  }
+  
+  /* ... Other styles ... */
+  
+  .button {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background: var(--hover-color);
+  }
+  
+  /* ... Other styles ... */
+  
+  @media screen and (max-width: 768px) {
+    .slide-content {
+      margin: 0 10px;
+    }
+    .swiper-navBtn {
+      display: none;
+    }
+  }
+  

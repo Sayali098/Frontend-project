@@ -1,0 +1,638 @@
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1050px) {
+    .footerdiv1{
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+     
+    .footericon{
+        margin-left: 20px;
+        margin-right: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+    .footerdiv1{
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+     
+    .footericon{
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+}
+
+
+
+/* 
+
+
+@media screen and (max-width:960px) {
+    .footerdiv1{
+        margin-left: 20px;
+        margin-right: 60px;
+    }
+     
+    .footericon{
+        margin-left: 20px;
+        margin-right: 80px;
+    }
+} */
+
+
+
+@media screen and (max-width:768px) {
+     
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapperclass{
+
+width: 100%;
+    height: 100vh;
+}
+    nav{
+    
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    
+        margin-top: 10px;
+        justify-content: space-around;
+    /* margin-bottom: 60px; */
+    }
+    .header-section1{
+margin-top: 60px;
+    }
+
+    .header-section1-div{
+        display: flex;
+
+        flex-direction: column;
+
+
+    }
+    
+    .header-image{
+
+        position: absolute;
+        z-index: 1;
+        margin-top: 320px;
+    
+   
+        margin-right: 100px;
+    }
+    .header-image img{
+margin-left: 60px;
+height: 200px;
+    }
+    .benefitsRightdiv-1{
+        margin-top: 20px;
+    }
+    .footerdiv1{
+        margin-left: 20px;
+        margin-right: 400px;
+    }
+     
+    .footericon{
+        margin-left: 20px;
+        margin-right: 600px;
+    }
+
+    .footerlast{
+        width: 100%;
+         height: 400px;
+         background-color: orange;
+}
+
+.benefitsdata{
+    margin-top: 100px;
+}
+.benefits h1{
+    font-weight: 300;
+    height: 40px;
+    padding: 10px;
+    font-size: large;
+
+}
+
+.Aboutdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+       .aboutdivRightLast{
+            height: 50px;
+}
+
+ 
+.aboutdivRight{
+    height: 1130px;
+    width: 1100px;
+display: flex;
+/* flex-direction */
+
+}
+.aboutdivRightLast
+{
+    padding-right: 10px;
+}
+
+
+.aboutdivLeft{
+          
+    width:100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.footer-black-1{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    color: white;
+    
+}
+.footerdiv1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerlast{
+    width: 100%;
+     height: 200px;
+     /* align-items: center; */
+   background-color: orange;
+    display: flex;
+    flex-direction: row;
+ justify-content: space-around;
+ }
+ 
+    .footer-black{
+        /* width: full; */
+        color: white;
+        background-color: black;
+        min-height:350px ;
+        display: flex;
+        flex-direction: column;
+    }
+    
+.footer-black-1{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main css here */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapperclass{
+
+width: 100%;
+    height: 100vh;
+}
+.header{
+    
+    width: 100%;
+    height: 65px;
+
+}
+
+
+nav{
+
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+nav a{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+
+}
+nav button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius:10px;
+    padding: 3px;
+}
+
+
+
+
+.header-section1{
+    width: 100%;
+    
+    height: 470px;
+     /* background: linear-gradient(to right, #ff9900, #ff3300);  */
+    background: linear-gradient(to top,#fff,darkorange);
+    /* background-color:darkorange; */
+}
+
+.header-section1-div{
+display: flex;
+flex-direction: row;
+padding: 50px;
+
+justify-content: space-between;
+}
+.header-section1-div button{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    padding-right: 18px;
+    padding-left:18px ;
+    border-radius: 18px;
+}
+
+.benefits{
+    margin-top: 100px;
+    /* width: full; */
+    min-height: 430px;
+    
+}
+.benefitsdata{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+
+
+}
+
+.benefitsleftdiv{
+    width: 30%;
+    color: black;
+    background-color: white;
+}
+.benefitsleftdiv button{
+    font-size: 20px;
+text-align: center;
+font-weight: 700;
+margin: 8px;
+width: 80%;
+margin-top: 20px;
+padding: 10px;
+
+text-align: left;
+border: none;
+background-color:lightgoldenrodyellow;
+    border-radius: 5px;
+
+}
+.benefitsleftdiv button:hover{
+    border: 2px solid tomato;
+}
+
+.benefitsRightdiv{
+    width: 70%;
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: palegoldenrod; */
+    justify-content: space-between;
+  
+    /* background-color:palegoldenrod; */
+}
+
+.benefitsRightdiv-1{
+     display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid darkorange;
+    flex-direction: row;
+    background-color: lemonchiffon;
+    justify-content: space-between; 
+    margin-bottom: 6px;
+}
+
+.benefitsRightdiv-2{
+    border-radius: 10px;
+    display: flex;
+   padding: 20px;
+   border: 2px solid darkorange;
+   flex-direction: row;
+   background-color:  lemonchiffon;
+   justify-content: space-between; 
+   margin-bottom: 6px;
+}
+.benefitsRightdiv-3{
+    display: flex;
+   padding: 20px;
+   border: 2px solid darkorange;
+   border-radius: 10px;
+   margin-bottom: 6px;
+   flex-direction: row;
+   background-color:  lemonchiffon;
+   justify-content: space-between; 
+}
+
+.benefitsRightdiv-4{
+    display: flex;
+    border-radius: 10px;
+   padding: 20px;
+   border: 2px solid darkorange;
+   margin-bottom: 6px;
+   flex-direction: row;
+   background-color: lemonchiffon;
+   justify-content: space-between; 
+}
+
+.benefitsRightdiv-5{
+    display: flex;
+   padding: 20px;
+   border: 2px solid darkorange;
+   border-radius: 10px;
+   margin-bottom: 6px;
+   flex-direction: row;
+   background-color:  lemonchiffon;
+   justify-content: space-between; 
+}
+
+.benefitsRightdiv-6{
+    border-radius: 10px;
+    display: flex;
+    border: 2px solid darkorange;
+    /* margin-bottom: 6px; */
+   padding: 20px;
+   flex-direction: row;
+   background-color:  lemonchiffon;
+   justify-content: space-between; 
+}
+
+
+
+
+
+
+
+
+.about{
+    /* width: full; */
+margin-top: 100px;
+   min-height:300px;
+   margin-bottom: 100px;
+    /* background-color: orange; */
+}
+.Aboutdiv{
+ /* width: 1200px; */
+    display: flex;
+
+    margin: 4%;
+    gap: 30px;
+    
+    /* padding: 30px; */
+    /* justify-content: space-between;
+    flex-direction: row; */
+}
+.aboutdivLeft{
+      text-align: center;
+    width: 20%;
+}
+.aboutdivLeft h3{
+
+    font-weight: 800;
+
+}
+
+
+
+.aboutdivRight{
+width:70% ;
+border-radius: 3%;
+padding-top: 10px;
+padding-left: 20px;
+min-height: 300px;
+background-color: orange;
+display: flex;
+
+flex-direction:row;
+}
+
+
+
+
+
+
+
+.card-content{
+padding: 20px;
+
+    background-color:papayawhip;
+    height:380px;
+}
+
+
+.testimonial    {
+  min-height:  800px;
+    /* width: full; */
+    background-color:lemonchiffon;
+}
+
+
+.membership{
+    /* width: full; */
+    margin-top:  40px;
+    min-height: 500px;
+}
+.membership button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.membership-1div:hover{
+    padding: 20px;
+    border-radius: 25px;
+ 
+ transform: translateY(-40px);
+    color: white;
+    background-color:darkorange;
+}
+.membership-2div:hover{
+    padding: 20px;
+    border-radius: 25px;
+ 
+ transform: translateY(-40px);
+    color: white;
+    background-color:darkorange;
+}
+
+
+.membership-3div:hover{
+    padding: 20px;
+    border-radius: 25px;
+ 
+ transform: translateY(-40px);
+    color: white;
+    background-color:darkorange;
+}
+.membership-4div:hover{
+       padding: 20px;
+       border-radius: 25px;
+    
+    transform: translateY(-40px);
+    color: white;
+    background-color:darkorange;
+}
+
+
+
+.footer-black{
+    /* width: full; */
+    color: white;
+    background-color: black;
+    min-height:350px ;
+}
+
+
+/* .footer-2{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+  
+background-color: orange; */
+
+.footer-black-1{
+width: 1024px;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: white;
+
+}
+.footerdiv1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footericon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerlast{
+   width: 100%;
+    height: 40px;
+    /* align-items: center; */
+  background-color: orange;
+   display: flex;
+   flex-direction: row;
+justify-content: space-around;
+}
+
+.footerlast span{
+    border: 1px solid black;
+    margin: 2px;
+    padding-right: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.footerlast button {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 2px;
+   
+    text-align: center;
+}
+
+
+
+
+
+
